@@ -274,7 +274,16 @@ a:active
 
 /*****THE TEAM clozer********************/
 .clozer{
-    margin: 70px 0 0 0 ;
+    margin: 50px 0 0 0 ;
     background-color:rgba(0,0,0,0.5);
     height: 700px;
+}
+
+.clozer h3{
+    color: #fff;
+    font-family: 'Rakkas', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    box-shadow: 0px 10px 5px grey;
 }
