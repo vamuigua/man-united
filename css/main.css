@@ -249,3 +249,25 @@ a:active
     background-color: black;
     height: 500px;
 }
+/*******IMAGE ZOOM-OUT**************************/
+.mg-image img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -o-transition: all 1s ease; /* IE 9 */
+    -ms-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+        max-width: 100%;
+}
+.mg-image:hover img {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);
+}
+ just apply some height and width to the wrapper.
+.mg-image {
+  width:400px;
+  height:400px;
+  overflow: auto;
+}
