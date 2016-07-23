@@ -276,7 +276,7 @@ a:active
 .clozer{
     margin: 50px 0 0 0 ;
     background-color:rgba(0,0,0,0.5);
-    height: 700px;
+    height: 1600px;
 }
 
 .clozer h3{
@@ -286,4 +286,38 @@ a:active
     text-align: center;
     background-color: black;
     box-shadow: 0px 10px 5px grey;
+}
+
+/**Flip Imgs Container***/
+.card-container {
+  cursor: pointer;
+  height: 300px;
+  perspective: 600;
+  position: relative;
+  width: 220px;    
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #000;
+  color: #fff;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
 }
