@@ -271,3 +271,10 @@ a:active
   height:400px;
   overflow: auto;
 }
+
+/*****THE TEAM clozer********************/
+.clozer{
+    margin: 70px 0 0 0 ;
+    background-color:rgba(0,0,0,0.5);
+    height: 700px;
+}
